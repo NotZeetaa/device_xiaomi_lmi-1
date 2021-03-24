@@ -26,3 +26,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="lmi-user 11 RKQ1.200826.002 V12.5.2.0.RJKMIXM release-keys"
 
 BUILD_FINGERPRINT := POCO/lmi_global/lmi:11/RKQ1.200826.002/V12.5.2.0.RJKMIXM:user/release-keys
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.kraken.maintainer=mamutal91
